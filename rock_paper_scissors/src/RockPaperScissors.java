@@ -53,7 +53,6 @@ public class RockPaperScissors {
                     System.out.println("you lose!");
                 }
             }
-
             System.out.println("play again? (y/n): ");
             String playAgain = scanner.nextLine();
 
@@ -61,10 +60,9 @@ public class RockPaperScissors {
             if (!playAgain.equals("y")){
                 break;
             }
-
-            scanner.close();
-
         }
+        scanner.close();
+
     }
 
 }
